@@ -8,12 +8,3 @@ install:
 - pip install -e .[test]
 script:
 - pytest
-deploy:
-  provider: pypi
-  user: __token__
-  on:
-    tags: true
-  distributions: sdist bdist_wheel
-  skip_existing: true
-  password:
-    secure: ETs2qakIh3MTqnxh1V9tyJHcPEJtxuCCXEwV+lMM4FZGJTrOF4DSon3rXihwiA2Cey2sTcowE4n/qL1g3PqUMAo371gQGxluo9CmtR5uV/lNPMYW1onJq+s29gE0uG2olE3GwSDhYBD7HRJhb8CIYRQlwzIAFMRaavv4gde3IvLq9LHsoxbf1/AdGW3M6WNT1vmOybRJ1or+J8TPUsspnrtHt9oyxD/V3ASdx2wKaWzeEQRK9iBGQtjr5OM6TMNAgek7IgJ+HsHhdUmDkazIF80vIdydBD75328PTa9ykMUScN54mg9sA0vNJ3KvNaAoXp9jd/5yFqC74Zj2hnZXrGK/VYZ/u+fGnnZBpKJp1bxOPhx5zDUIeKhReX1uVNMFz/c/UzAhKjPUNBK6EZZY9SbccBNWTe7TzBfxf6Lx4xVFHw1F07xbM88QoiBS9+D4veDqRNDZ0yA9jQlmxs+sNJzT0n5ZQca5zeGBLNqcQK8Wxbr0EdihrEFbDrzbo4Y06GTYTx8LttyXw5pXXxlPdxTnN9G14mEvOkh+PtZSA99CkR1srdWM7WWbF/mcuR7vBzs7MruG7LqoIz63ZJ2h1XdQWh10yoqxcVf/YWdcD3okj40vBhVldv4HuSWecBBVakR3qpUfRY329mvs4UciuX8EtnUoi91XVgysXOtpZrc=
