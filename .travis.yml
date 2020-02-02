@@ -1,19 +1,18 @@
 dist: xenial
 language: python
 python:
-  - '3.6'
-  - '3.7'
-  - '3.8'
+- '3.6'
+- '3.7'
+- '3.8'
 install:
-  - pip install -e .[test]
+- pip install -e .[test]
 script:
-  - pytest
-
+- pytest
 deploy:
   provider: pypi
   user: stadiamaps
   password:
-    secure: acx26N6t1c+kCVfoarsRvGyab6OVXGPPbUCssv1r57HEefRMm8ioowk+97pAOpIIyhVlZ/6o3FlaEJCSw3f0pfXsIf4Kqmu+xhsJZ0WRYgwuClVG8laA2fM7YF1/zEoXyKOhrZMj+uCoqPYP+WWP4o5sSgieOKM6cppOFQY4pwk2irQQSKgHoiJS6O9VdvWcU48QgSBpvfpA0tVGlP1nxLPvvbmIM8OPkfjYyzD+5JSkm5t5XtbIF9s+Px+rsklsIbHkK9cJUd0uAf4AoxjMhkUjoSLq5MQVtWerD9sXC5FP9yOJdWX2gW63/Fwa9kqbSQR9roTcWuVwa/L8sSzczY0C8aq5NiHOtjK7JlLnOkWltaA4Ic9LFaCApSPI4x7hktE5LTcRG6vYOq5JXx48RgpR4+57h2thRW2FOfBda8E9Kpw3qSn67N8CdI0a4RngFCFSkq2xhP/O4lt/hUiPmlUNYuEUVd3lSn0Sf4q0Cu+1sw1NNDig3fOzbI1gLH9UT7EXeqKxImzARx3LyrawfrM2wi8DcJBw/xTwmJDePq5rsruVfPml/M0gOxWWP7cA8W4FET0Opb+Wc2ji8ig8bV26/v5af1Bu9uW3h7Z6u/5/L9okID3inFxs1XXvpdboFIsymadJgd8yGX/gYEiZodjn2n+FbvD7e/0L5obKl0A=
+    secure: BseIrfe2dEkGOqk7EiDnXSKL1IGxzVotixgURjS5QReFXyXO11QatrrzJqk7Qa5Nb+ICkz7ySHMUugESv8+oRC7/GrTMzhIwfxhSPkXOPMNqNXN/v/Gsid/BZrovVLJQXfsDYm+ZXKzotbZ/1gQqXP1XdnGR38Xj4TqHGgHpu473+vZegIfQFULCrGYKaaiz5bkuj4Oamsc4jAyO25REoaUPFACK1NVhqsqPkfb1joKx6qXOUauPoOO5VKRhxEdo5RdJqtvp0okPhPHgWTgivcZC0TLVGE68v6gTKJgxeWaKH6Vgv2UB8acD/ygAONC7H4PMkJaUlVgQF/i89BMdApsF8uKyCieFGBUQCtv4+zycbpUfsZmH0oY0nxiihkn3cuWazsfk/P/eMfa+cV0+N0nxifhUTFo/SE3hd2D5w0+iBuF3gAqe5/p9dnQmG042kvmp/KvoNeJa6lt+/Wl8QDLzyypznCHY9bPHuAJ4rie752WFUz96zH3UiTWLU2gapCA7SyaI86Pb+ApbNSWYM4NNAhTm41tyW4ymsiv+wLMz7tJIUT4z27ged1OmGzJGaNBhCpvFdY82BSzCFxmzQR+/2K8twFPh9jxRBt6bEer8Hsx5gbJzIQudwg+9VgiYHHAv+nl+Q+Ixqae+AS28LVQa0W1ZSajOSCWZMeszFpY=
   on:
     tags: true
-  distributions: "sdist bdist_wheel"
+  distributions: sdist bdist_wheel
