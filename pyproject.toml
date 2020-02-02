@@ -1,0 +1,17 @@
+[tool.black]
+line-length = 120
+target-version = ['py36', 'py37', 'py38']
+exclude = '''
+/(
+    \.git
+  | \.pytest_cache
+  | env
+  | build
+  | dist
+  | mkjsfiddle\.egg-info
+
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+)/
+'''
