@@ -10,7 +10,7 @@ script:
 - pytest
 deploy:
   provider: pypi
-  user: stadiamaps
+  user: "__token__"
   password:
     secure: BseIrfe2dEkGOqk7EiDnXSKL1IGxzVotixgURjS5QReFXyXO11QatrrzJqk7Qa5Nb+ICkz7ySHMUugESv8+oRC7/GrTMzhIwfxhSPkXOPMNqNXN/v/Gsid/BZrovVLJQXfsDYm+ZXKzotbZ/1gQqXP1XdnGR38Xj4TqHGgHpu473+vZegIfQFULCrGYKaaiz5bkuj4Oamsc4jAyO25REoaUPFACK1NVhqsqPkfb1joKx6qXOUauPoOO5VKRhxEdo5RdJqtvp0okPhPHgWTgivcZC0TLVGE68v6gTKJgxeWaKH6Vgv2UB8acD/ygAONC7H4PMkJaUlVgQF/i89BMdApsF8uKyCieFGBUQCtv4+zycbpUfsZmH0oY0nxiihkn3cuWazsfk/P/eMfa+cV0+N0nxifhUTFo/SE3hd2D5w0+iBuF3gAqe5/p9dnQmG042kvmp/KvoNeJa6lt+/Wl8QDLzyypznCHY9bPHuAJ4rie752WFUz96zH3UiTWLU2gapCA7SyaI86Pb+ApbNSWYM4NNAhTm41tyW4ymsiv+wLMz7tJIUT4z27ged1OmGzJGaNBhCpvFdY82BSzCFxmzQR+/2K8twFPh9jxRBt6bEer8Hsx5gbJzIQudwg+9VgiYHHAv+nl+Q+Ixqae+AS28LVQa0W1ZSajOSCWZMeszFpY=
   on:
