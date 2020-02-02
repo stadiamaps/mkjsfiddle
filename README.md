@@ -8,10 +8,10 @@ augment your code fences with an "edit in JSFiddle" button.
 This package can be installed via pip.
 
 ```
-pip install mkdocs-foo-plugin
+pip install mkjsfiddle
 ```
 
-Then, add `mkjsfiddle` to the `plugins` section of your `mkdocs.yml`
+Then, add `jsfiddle` to the `plugins` section of your `mkdocs.yml`
 file.
 
 ```yaml
