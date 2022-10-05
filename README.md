@@ -52,6 +52,6 @@ looks something like `jsfiddle-html-htmlonly`).
 
 We attempt to keep formatting as-is, but make no guarantees in the default mode. The
 `-htmlonly` option however should preserve formatting (if it does not, please submit
-a bug report). This has been developed and tested with the `readthedocs` style, and
-has not been tested extensively with additional styles. Pull requests to improve styling
+a bug report). This has been developed and tested with [Material for MkDocs](https://github.com/squidfunk/mkdocs-material),
+and has not been tested extensively with additional styles. Pull requests to improve styling
 are welcome.
