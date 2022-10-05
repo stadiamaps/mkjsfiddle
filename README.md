@@ -44,7 +44,7 @@ AND not having the `src` attribute, or if you have a `style` tag with the attrib
 of these, they will all be extracted and concatenated with some newlines thrown in as
 breaks.
 
-If you would prefer to opt out of this behavior and just dump everything as-is into
+If you prefer to opt out of this behavior and just dump everything as-is into
 the HTML box, you can add `-htmlonly` to the language string (for a full string that
 looks something like `jsfiddle-html-htmlonly`).
 

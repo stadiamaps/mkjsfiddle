@@ -9,7 +9,7 @@ with open(path.join(here, "README.md")) as fp:
 
 setup(
     name="mkjsfiddle",
-    version="0.1.1",
+    version="0.2.0",
     description="An MkDocs plugin that lets you edit code fences in JSFiddle.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -25,6 +25,8 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
     ],
     keywords="mkdocs jsfiddle plugin",
     license="MIT",
