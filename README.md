@@ -1,7 +1,7 @@
 # MkDocs JSFiddle Plugin
 
 A plugin for [MkDocs](https://www.mkdocs.org/) that lets you
-augment your code fences with an "edit in JSFiddle" button.
+augment your code fences with an "Try it in JSFiddle" button.
 
 ## Installation
 
