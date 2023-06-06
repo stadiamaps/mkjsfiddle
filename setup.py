@@ -31,7 +31,7 @@ setup(
     keywords="mkdocs jsfiddle plugin",
     license="MIT",
     packages=["mkjsfiddle"],
-    python_requires=">=3.6, <4",
+    python_requires=">=3.8, <4",
     install_requires=["mkdocs"],
     extras_require={"test": ["pytest"],},
     entry_points={"mkdocs.plugins": ["jsfiddle = mkjsfiddle.plugin:JSFiddlePlugin",],},
